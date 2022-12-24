@@ -94,58 +94,48 @@ border-radius: 13px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 333px;  
+  margin: auto;
   margin-bottom: 13px;
-  padding-top: 9.5px;
+  gap: 10px;
   }
 
-.button-vk {
-    display: flex;
-  justify-content: center;
-  align-items: center;
-    background: #45688E;
-    border-radius: 6px;
-    width: 103px;
-    height: 50px;
+.button {
+width: 100%; 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50px; 
+background-color: black;
+border-radius: 6px;
   }
 
- .button-tg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #0088CC;
-    border-radius: 6px;
-    width: 103px;
-    height: 50px;
+.button.vk {
+  background: #45688E;
   }
-  
-  .button-yt {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background: #E43535;
-   border-radius: 6px;
-   width: 103px;
-   height: 50px;
-  }
-  
-.button-gh {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 333px;
-  height: 70px;
-  background: #000000;
-  border-radius: 6px;
-  text-decoration: none
-  }
-  
-  .button-text {
-    color: white;
-    padding-left: 5px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-  
-  }
+
+.button.tg {
+  background: #0088CC;
+    }
+
+.button.yt {
+  background: #E43535;
+      }
+
+.button.gh{
+height: 70px;
+} 
+
+a {
+  text-decoration: none;
+}
+
+.button-text {
+  color: white;
+  padding-left: 5px;
+  font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+}
 
 
